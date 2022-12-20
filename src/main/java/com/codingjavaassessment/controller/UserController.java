@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000", "https://gentle-water-0252d5b03.2.azurestaticapps.net")
 @RestController
 @RequestMapping("/api")
 public class UserController {
